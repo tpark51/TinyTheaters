@@ -7,6 +7,7 @@ GO
 use TinyTheaters;
 GO
 
+--SCHEMA
 create table Theater(
     TheaterId int primary key identity(1, 1),
     [Name] varchar(100) not null, 
